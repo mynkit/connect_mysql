@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.csv
+*.xls
+*.xlsx
+*.pkl
+*.html
+.ipynb_checkpoints/
+.vscode
