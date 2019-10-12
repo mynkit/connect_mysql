@@ -9,7 +9,7 @@ def _requires_from_file(filename):
 
 setup(
     name="connect_mysql",
-    version="0.0.1",
+    version="0.0.2",
     python_requires=">=3.5",
     packages=find_packages(),
     install_requires=_requires_from_file('requirements.txt'),
