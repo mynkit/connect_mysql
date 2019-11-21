@@ -1,3 +1,3 @@
 from connect_mysql.Connector import Connector
-from connect_mysql.connect_via_bation import MysqlConnectorViaBation
-from connect_mysql.connect_via_bation import MysqlConnector
+from connect_mysql.connect_via_bastion import MysqlConnectorViaBastion
+from connect_mysql.connect_via_bastion import MysqlConnector
