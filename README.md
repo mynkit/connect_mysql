@@ -15,7 +15,7 @@ pip install -U connect_mysql
 
 踏み台サーバ経由でDBにpython3,pandasでアクセスする
 ```python
-from connect_mysql import MysqlConnectorViaBation
+from connect_mysql import MysqlConnectorViaBastion
 
 bastion_server_info = {
     'host': 'ssh_hostname',
@@ -31,7 +31,7 @@ db_info = {
     'password': 'db_password'
 }
 
-with MysqlConnectorViaBation(
+with MysqlConnectorViaBastion(
     use_bastion=True, db_info=db_info, bastion_server_info=bastion_server_info) as connector:
     sample_table = connector.query('SELECT * FROM sample_table;')
 ```
